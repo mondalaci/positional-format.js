@@ -1,0 +1,10 @@
+{
+  "name": "positional-format.js",
+  "version": "0.0.0",
+  "main": "positional-format.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
