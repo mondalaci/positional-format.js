@@ -1,0 +1,44 @@
+{
+  "name": "positional-format.js",
+  "version": "0.0.2",
+  "description": "Function format like sprinf or printf for javascript",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mondalaci/positional-format.js.git"
+  },
+  "keywords": [
+    "format",
+    "javascript",
+    "sprintf",
+    "prinf"
+  ],
+  "author": "László Monda",
+  "contributors": [
+    {
+      "name": "Ricardo Lüders",
+      "email": "ricardo@luders.com.br"
+    }
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/mondalaci/positional-format.js/blob/master/LICENCE"
+  },
+  "bugs": {
+    "url": "https://github.com/mondalaci/positional-format.js/issues"
+  },
+  "homepage": "https://github.com/mondalaci/positional-format.js",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-qunit": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "phantomjs": "~1.9.7-3"
+  }
+}

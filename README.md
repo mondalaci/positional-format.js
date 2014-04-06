@@ -1,8 +1,28 @@
-positional-format.js
-====================
+# Positional Format for Javascript [![Bower version](https://badge.fury.io/bo/positional-format.js.svg)](http://badge.fury.io/bo/positional-format.js) [![Build Status](https://secure.travis-ci.org/twbs/bootstrap.png)](http://travis-ci.org/twbs/bootstrap)
 
-BASH> bower install positional-format.js
+## Installation
 
-JS> "hello {0}, what's {1}?".format("world", "up");
+```sh
+$ bower install positional-format.js
+```
 
-Borrowed from http://stackoverflow.com/a/4673436/1449117
+## Usage
+
+```javascript
+"Hello {0}, what\'s {1}?".format("world", "up");
+```
+
+Expected result:
+```javascript
+Hello world, what's up?
+```
+
+## References
+
+* [http://stackoverflow.com/a/6449623/1449117](http://stackoverflow.com/a/6449623/1449117)
+* [http://stackoverflow.com/a/1685917/1449117](http://stackoverflow.com/a/1685917/1449117)
+* [http://stackoverflow.com/a/4673436/1449117](http://stackoverflow.com/a/4673436/1449117)             
+
+# License
+
+Positional Format is free software distributed under the tems of the [MIT license](http://opensource.org/licenses/MIT).
