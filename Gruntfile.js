@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'dist/positional-format.min.js': ['<%= src/positional-format.js %>']
+                    'dist/positional-format.min.js': ['src/positional-format.js']
                 }
             }
         },
