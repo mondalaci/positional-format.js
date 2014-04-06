@@ -1,4 +1,3 @@
-
 module('positional-format')
 
 test('function is declared', function() {
@@ -24,5 +23,21 @@ test('function replacement works', function() {
     equal("Shuffle parameters: {2}, {0}, {1}".format("one", "two", "three"),
         "Shuffle parameters: three, one, two",
         "Shuffle parameters.")
+
+    equal("Decimal parameter (with coma): {0}".format("1,2"),
+        "Decimal parameter (with coma): 1,2",
+        "Using decimal (with coma)")
+
+    equal("Decimal parameter (with dot): {0}".format(1.2),
+        "Decimal parameter (with dot): 1.2",
+        "Using decimal (with dot")
+
+    equal("He give me {0}{1} for one {2}.".format("U$", 5.76, "piña"),
+        "He give me U$5.76 for one piña.",
+        "Special characters")
+
+    equal("{0} = 5".format(2 + 3),
+        "5 = 5",
+        "You can't use operators.")
 
 })

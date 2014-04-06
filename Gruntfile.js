@@ -3,11 +3,13 @@ module.exports = function(grunt) {
     grunt.initConfig({
 
         pkg: grunt.file.readJSON('package.json'),
-        banner: grunt.file.read('LICENSE'),
         
         uglify: {
             options: {
-                banner: '<%= banner %>\n/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+                banner: '/*!\n * <%= pkg.name %> <%= pkg.version %>\n * https://github.com/mondalaci/positional-format.js' +
+                        '\n *\n * Copyright 2014\n * Released under the MIT license' +
+                        '\n * https://github.com/mondalaci/positional-format.js/blob/master/LICENSE' +
+                        '\n *\n * Build: <%= grunt.template.today("dd-mm-yyyy") %>\n */\n'
             },
             dist: {
                 files: {
