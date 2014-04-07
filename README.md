@@ -1,4 +1,4 @@
-# Positional Format for Javascript [![Bower version](https://badge.fury.io/bo/positional-format.js.svg)](http://badge.fury.io/bo/positional-format.js) [![Build Status](https://secure.travis-ci.org/twbs/bootstrap.png)](http://travis-ci.org/twbs/bootstrap)
+# Positional Format for Javascript [![Bower version](https://badge.fury.io/bo/positional-format.js.svg)](http://badge.fury.io/bo/positional-format.js) [![Build Status](https://api.travis-ci.org/rluders/positional-format.js.png)](https://travis-ci.org/rluders/positional-format.js)
 
 ## Installation
 
