@@ -1,27 +1,31 @@
 {
-    "name": "positional-format.js",
-    "description": "Function format like sprinf or printf for javascript",
-    "version": "0.0.2",
-    "keywords": [
-        "format",
-        "javascript",
-        "sprintf",
-        "prinf"
-    ],
-    "homepage": "https://github.com/mondalaci/positional-format.js",
-    "main": "dist/positional-format.min.js",
-    "ignore": [
-        ".*",
-        "src",
-        "README.md",
-        ".bowerrc",
-        ".jscsrc",
-        ".jshintrc",
-        ".gitignore",
-        "package.json",
-        "Gruntfile.js",
-        "CNAME",
-        "composer.json",
-        "tests"
-    ]
+  "name": "positional-format.js",
+  "version": "0.0.2",
+  "homepage": "https://github.com/rluders/positional-format.js",
+  "authors": [
+    "László Monda",
+    "Ricardo Lüders <ricardo@luders.com.br>"
+  ],
+  "description": "Positional Format for Javascript",
+  "main": "dist/positional-format.min.js",
+  "keywords": [
+    "positional",
+    "format",
+    "javascript",
+    "sprintf",
+    "prinf"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "README.md",
+    "package.json",
+    "Gruntfile.js",
+    "composer.json"
+  ]
 }

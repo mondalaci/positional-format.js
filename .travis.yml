@@ -5,4 +5,5 @@ before_install:
   - npm install
 install: 
   - time npm install -g grunt-cli
+  - time npm install -h phantomjs
   - grunt
