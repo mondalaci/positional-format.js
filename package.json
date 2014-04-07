@@ -19,12 +19,9 @@
     "sprintf",
     "prinf"
   ],
-  "author": "László Monda",
-  "contributors": [
-    {
-      "name": "Ricardo Lüders",
-      "email": "ricardo@luders.com.br"
-    }
+  "author": [
+    {"name": "László Monda"},
+    {"name": "Ricardo Lüders", "email": "ricardo@luders.com.br"}
   ],
   "license": {
     "type": "MIT",
