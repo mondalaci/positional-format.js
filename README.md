@@ -25,4 +25,4 @@ Hello world, what's up?
 
 # License
 
-Positional Format is free software distributed under the tems of the [MIT license](http://opensource.org/licenses/MIT).
+Positional Format is free software distributed under the terms of the [MIT license](http://opensource.org/licenses/MIT).
